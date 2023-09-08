@@ -1,0 +1,399 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    font-size: 1.4em;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: blueviolet;
+    border: 1px solid rgba(0, 0, 0, 0 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0 0.5);
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(243, 246, 228, 0.806);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento {
+    color: rgb(15, 240, 68);
+}
+
+header {
+    background-color: rgb(201, 207, 195);
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 100px;
+    border-radius: 55px;
+    
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header a {
+    padding: 5px 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00000084;
+}
+
+:hover a :hover {
+    color: rgba(226, 220, 43, 0.806);
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url("/img/cataratas.png.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h1 {
+    padding-top: 120px;
+    padding-left:20px;
+    color: rgb(8, 7, 0);
+    text-shadow: 2px 5px 7px#e6dbdb84;
+    
+    
+    
+
+}
+
+#lugares .container {
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+#agencias {
+    background-color: rgb(165, 212, 124);
+    color: rgb(15, 0, 0);
+    font-weight: 600;
+    text-align: center;
+}
+
+#agencias .agencias {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.agencias p {
+    padding: 60px;
+    font-weight: 600;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 7px #00000084;
+}
+
+.agencias h3 {
+    margin: 0px;
+    color: rgb(249, 245, 245);
+    font-weight: 600;
+}
+
+#agencias .container {
+    padding: 50px 10px;
+}
+
+#agencias .container h2 {
+    margin-bottom: 70px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#agencias .container p {
+    display: inline-block;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#agencias .carta{
+    
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 0px;
+   
+}
+
+/* ZONA DE CARTA */
+.carta1 {
+    margin: 5px 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("/img/cataratas.png.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: white 2px solid;
+}
+
+.carta2 {
+    
+    margin: 5px 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.3)), url("/img/ruinas_patio.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: white 2px solid;
+}
+
+.carta3 {
+    margin: 5px 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.3)), url("/img/mocona1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: white 2px solid;
+    
+}
+
+/* ZONA DE CARTA */
+
+#caracteristicas .container {
+    text-align: center;
+    padding: 70px 12px;
+
+}
+
+#caracteristicas li {
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#caracteristicas a {
+    color: black;
+    background-size: cover;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 20vh;
+    background-color: rgb(165, 212, 124);
+    height: 60vh;
+}
+
+/* #sector-libre button {
+    font-size: 2vw;
+} */
+
+#redes {
+    height: 20vh;
+    background-color: rgba(181, 20, 20, 0.5);
+}
+
+#redes .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container a {
+    padding: 0.75rem 0.75rem;
+    margin: 1.875rem 1.875rem;
+}
+
+a {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+/* --------------Media Query------------------ */
+
+
+
+/* --------------Media Query------------------ */
+
+#caracteristicas {
+    background-image:url("/img/gruta_india.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: calc(100vw - 800px) 120px;
+   
+    
+}
+
+#caracteristicas .container {
+    text-align: initial;
+}
+
+#carateristicas ul {
+    margin-left: 100px;
+}
+
+
+/* Ultimas modificaciones  */
+#agencias h3 {
+    margin-top: 0;
+}
+
+#agencias .carta {
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-color: rgb(50, 50, 50, 0.5);
+    box-shadow: 2px, 2px 10px rgba(0, 0, 0, 0 0.5);
+}
+
+.carta:first-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/img/cataratas.png.jpg");
+
+
+}
+
+.carta:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/img/ruinas\ patio.jpg");
+
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/img/moconaaa.jpg");
+    background-repeat: no-repeat;
+}
+
+            /* FORMULARIO */
+h3{
+    color:rgb(20, 13, 1);
+    font-weight: 500;
+}
+
+.container .form-register{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    #caracteristicas {
+        background-position-x: calc(100vh - 800px);
+    }
+   
+}
+
+@media screen and (min-width: 480px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0px;
+        padding-right: 0px;
+
+    }
+
+    #hero h1 {
+        font-size: 5em;
+    }
+
+    #lugares .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #lugares .texto {
+        width: 50%;
+        text-align: center;
+        max-width: 600px;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #lugares h2 {
+        margin-top: 0px;
+    }
+
+    #lugares .img-container {
+        background-image: url("/img/puerto_rico.png");
+        background-position: center center;
+        background-size: cover;
+        object-fit: cover;
+        height: 500px;
+        width: 700px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 0 #00000084;
+    }
+    .container-fluid .logo{
+        max-width: 1.0rem;
+    }
+}
