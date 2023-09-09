@@ -9,17 +9,19 @@ body {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 h2 {
     font-size: 2.7em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3 {
     font-size: 2em;
+    
 }
 
 p {
@@ -55,14 +57,14 @@ button:hover {
 }
 
 header {
-    background-color: rgb(201, 207, 195);
+    background-color: rgba(15, 240, 67, 0.559);
 
 }
-
 .logo {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
+ 
 
 img {
     height: 100px;
@@ -79,14 +81,15 @@ header .container {
 
 header a {
     padding: 5px 5px;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    box-shadow: 6px 6px 8px black;
     text-decoration: none;
     font-weight: bold;
-    color: #00000084;
+    color:rgb(1, 1, 23);
 }
 
 :hover a :hover {
-    color: rgba(226, 220, 43, 0.806);
+    color: rgba(245, 245, 241, 0.806);
 }
 
 #hero {
@@ -104,18 +107,15 @@ header a {
 #hero h1 {
     padding-top: 120px;
     padding-left:20px;
-    color: rgb(8, 7, 0);
-    text-shadow: 2px 5px 7px#e6dbdb84;
-    
-    
+    color: blue;
+    text-shadow: 2px 8px 10px#fafafa;
+}
     
 
-}
 
 #lugares .container {
     text-align: center;
     padding: 200px 12px;
-
 }
 
 #agencias {
@@ -151,7 +151,7 @@ header a {
 #agencias .container h2 {
     margin-bottom: 70px;
     color: blue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* hubo otro tipo de letra */
 
 }
 
